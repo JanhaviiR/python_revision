@@ -33,3 +33,56 @@ pop()		Removes the element at the specified position
 remove()	Removes the item with the specified value
 reverse()	Reverses the order of the list
 sort()		Sorts the list
+
+#copy
+fruits = ["apple", "banana", "cherry"]
+
+x = fruits.copy()
+
+print(x)
+o/p-
+['apple', 'banana', 'cherry']
+
+#extend
+fruits = ['apple', 'banana', 'cherry']
+
+cars = ['Ford', 'BMW', 'Volvo']
+
+fruits.extend(cars)
+
+print(fruits)
+o/p-
+['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+
+#insert
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.insert(1, "orange")
+
+print(fruits)
+o/p-['apple', 'orange', 'banana', 'cherry']
+
+#pop
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.pop(1)
+
+print(fruits)
+o/p-['apple', 'cherry']
+
+#reverse
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.reverse()
+
+print(fruits)
+o/p-
+['cherry', 'banana', 'apple']
+
+#sort
+cars = ['Ford', 'BMW', 'Volvo']
+
+cars.sort(reverse=True)
+
+print(cars)
+o/p-['Volvo', 'Ford', 'BMW']
