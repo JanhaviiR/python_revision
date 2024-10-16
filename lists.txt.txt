@@ -1,0 +1,8 @@
+#accessing
+thislist = ["apple", "banana", "cherry"]
+print(thislist[0])
+o/p-apple
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1]
+o/p-cherry
