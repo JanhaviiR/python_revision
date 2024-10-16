@@ -2,3 +2,8 @@
 a = "Hello"
 print(a)
 o/p-Hello
+
+#Slicing
+b = "Hello, World!"
+print(b[1:5])
+o/p-ello
