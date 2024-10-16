@@ -3,3 +3,8 @@ x = 5
 y = x
 print(x)
 print(y)
+
+x = 4
+x = 8
+print(x)
+o/p-8
