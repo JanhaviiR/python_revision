@@ -7,3 +7,20 @@ o/p-Hello
 b = "Hello, World!"
 print(b[1:5])
 o/p-ello
+
+#Replace String
+a = "Hello, World!"
+print(a.replace("H", "c")
+o/p-cello, World!
+
+#concatination
+a = "Hello "
+b = "World"
+c = a + b
+print(c)
+o/p-Hello World
+
+age = 36
+txt = "My name is John, I am ",age
+print(txt)
+o/p-('My name is John, I am ', 36)
