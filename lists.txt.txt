@@ -6,3 +6,19 @@ o/p-apple
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1]
 o/p-cherry
+
+#manipulation
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+
+print(thislist)
+o/p-['apple', 'blackcurrant', 'cherry']
+
+thislist = ["apple", "banana", "cherry"]
+
+thislist.insert(2, "watermelon")
+
+print(thislist) 
+o/p-['apple', 'banana', 'watermelon', 'cherry']
+
+
