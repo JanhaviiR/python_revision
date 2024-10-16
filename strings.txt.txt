@@ -24,3 +24,38 @@ age = 36
 txt = "My name is John, I am ",age
 print(txt)
 o/p-('My name is John, I am ', 36)
+
+#string methods
+txt = "hello, and welcome to my world."
+
+x = txt.capitalize()
+
+print (x)
+o/p-
+Hello, and welcome to my world.
+
+#encoded
+txt = "My name is Ståle"
+
+x = txt.encode()
+
+print(x)
+o/p-b'My name is St\xc3\xa5le'
+
+#operators
+=	x = 5		x = 5	
++=	x += 3		x = x + 3	
+-=	x -= 3		x = x - 3	
+*=	x *= 3		x = x * 3	
+/=	x /= 3		x = x / 3	
+%=	x %= 3		x = x % 3	
+//=	x //= 3		x = x // 3	
+**=	x **= 3		x = x ** 3	
+&=	x &= 3		x = x & 3	
+|=	x |= 3		x = x | 3	
+^=	x ^= 3		x = x ^ 3	
+>>=	x >>= 3		x = x >> 3	
+<<=	x <<= 3		x = x << 3	
+:=	print(x := 3)	x = 3
+print(x)
+
