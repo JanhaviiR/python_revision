@@ -31,9 +31,9 @@ while True:
         if not cart:
             print("Your cart is empty.")
         else:
-            print("\---Current Cart Items---")
+            print("---Current Cart Items---")
             for item in cart:
-                print("Item: {item[0]}, Quantity: {item[1]}, Price: ${item[2]:.2f} each")
+                print("Item:",item[0],"Quantity:",item[1],"Price:",item[2])
     
 
     elif choice=='4':
@@ -45,7 +45,7 @@ while True:
             for items in cart:
                 item_total=item[1]*item[2]
                 total_price+=item_total
-                print("Item:" {item[0]}, "Quantity:" {item[1]}," Subtotal:" ${item_total})
+                print("Item:",item[0],"Quantity:",item[1]," Subtotal:" ,item_total)
             if total_price>100:
                 discount=0.10
                 print("10% discount!")
@@ -57,9 +57,9 @@ while True:
                 print("no discount")
             discount_amount=total_price*discount
             final_price=total_price-discount_amount
-            print("\nTotal price before discount:" ${total_price})
-            print("Discount: ${discount_amount:.2f}")
-            print("Final price after discount:" ${final_price})
+            print("\nTotal price before discount:" ,total_price)
+            print("Discount:",discount_amount)
+            print("Final price after discount:",final_price)
     elif choice=='5':
         print("program exiting")
         break
